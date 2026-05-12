@@ -90,3 +90,26 @@ print(message,transportation[3])
 motorcycles = ['honda','yamaha','suzuki']
 motorcycles[0] = 'ducati'      
 motorcycles[0] = 'ducati'
+
+motorcycles[0] = 'ducati'
+
+print(motorcycles)
+
+#If you want to add a new element to the list, you can use the .append method
+
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles.append('ducati')
+
+#If you want to add a new element to the list, you can use the .append method
+
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles.append('ducati')
+
+print(motorcycles) #appending will add the new element to the end of the list without affecting the other elements on the list.
+#You can even append with an empty list.
+
+#Now if you want to add an element to any position on the list, you can use the insert() method.
+
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles.insert(0,'ducati')
+print(motorcycles)
