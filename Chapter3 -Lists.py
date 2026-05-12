@@ -72,3 +72,15 @@ print(names[6],message)
 print(names[7],message)
 print(names[8],message)
 print(names[9],message)
+
+#3-3 Your own list
+
+
+transportation = ['Scout Explorer', 'Electic Bike','Toyota 4Runner','F150']
+
+message = 'I would like to own a:'
+
+print(message,transportation[0])
+print(message, transportation[1])
+print(message,transportation[2])
+print(message,transportation[3])
