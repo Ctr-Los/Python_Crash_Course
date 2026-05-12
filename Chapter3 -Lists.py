@@ -127,3 +127,15 @@ print(motorcycles)
 motorcycles = ['honda','yamaha','Suzuki']
 del motorcycles[1]
 print(motorcycles) #In both examples you can NO longer access the values after using del statement.
+
+#But if you ever want to keep using a value that you no longer need, you can use the pop() method.
+#The pop()method removes the last item from the list BUT let's you work with that item after removing it.
+#Here is an example of using pop()
+
+motorcycles = ['honda','yamaha','Suzuki']
+print(motorcycles)
+
+popped_motorcycles = motorcycles.pop() #We pop a value from the list and assigned it to a new variable.
+print(motorcycles) #We print the list
+print(popped_motorcycles)#We print the pop value to show that we still have access to the value that was removed
+
