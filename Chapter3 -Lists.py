@@ -84,3 +84,9 @@ print(message,transportation[0])
 print(message, transportation[1])
 print(message,transportation[2])
 print(message,transportation[3])
+
+#We can change the items of a list by just choosing the desired index and assign it with something else.
+
+motorcycles = ['honda','yamaha','suzuki']
+motorcycles[0] = 'ducati'      
+motorcycles[0] = 'ducati'
