@@ -113,3 +113,17 @@ print(motorcycles) #appending will add the new element to the end of the list wi
 motorcycles = ['honda','yamaha','suzuki']
 motorcycles.insert(0,'ducati')
 print(motorcycles)
+
+#Now here's how to remove an element from a list.
+
+#You use the "del" statement
+
+motorcycles = ['honda','yamaha','Suzuki']
+del motorcycles[0]
+print(motorcycles)
+
+#You can remove an elements from the list at any position.
+
+motorcycles = ['honda','yamaha','Suzuki']
+del motorcycles[1]
+print(motorcycles) #In both examples you can NO longer access the values after using del statement.
