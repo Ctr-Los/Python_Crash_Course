@@ -52,8 +52,23 @@ print(names[5])
 print(names[6])
 print(names[7])
 print(names[8])
-print(names[9])
-
-#3-2 Greeetings 
+print(names[9]) 
 
 
+#3-2 Greetings
+
+
+names = ['Brayan', 'Belkis', 'Esme', 'Jesus', 'Denay', 'Jesus', 'Emely', 'Nora', 'Alej', 'Jackie']
+
+message = ',You are welcomed to my birthday party'
+
+print(names[0],message)
+print(names[1],message)
+print(names[2], message)
+print(names[3],message)
+print(names[4],message)
+print(names[5],message)
+print(names[6],message)
+print(names[7],message)
+print(names[8],message)
+print(names[9],message)
