@@ -194,3 +194,17 @@ guest_list.insert(2,'Denay')
 
 print(guest_list)
 
+#3-6 More Guests
+
+guest_list = ['Brayan', 'Belkis','Jackie','Esme','Jesus','Jesus']
+print("Good news! We found a bigger table, we can add more people.")
+guest_list.insert(0,'Denay')
+guest_list.insert(2,'Nora')
+guest_list.append('Alej')
+
+print(f'Congrats, {guest_list[0]}. You are invited to my party!!')
+print(f'Congrats, {guest_list[1]}. You are invited to my party!!')
+print(f"Congrats, {guest_list[2]}. You are invited to my party!!")
+print(f'Congrats, {guest_list[3]}. You are invited to my party!!')
+print(f'Congrats, {guest_list[4]}. You are invited to my party!!')
+print(f'Congrats, {guest_list[5]}. You are invited to my party!!')
