@@ -182,3 +182,15 @@ print(f'{guest_list[2]}, you are invited to my event tonight.')
 print(f'{guest_list[3]}, you are invited to my event tonight.')
 print(f'{guest_list[4]}, you are invited to my event tonight.')
 print(f'{guest_list[5]}, you are invited to my event tonight.')
+
+#3-5 Changing Guest List
+guest_list = ['Brayan', 'Belkis','Jackie','Esme','Jesus','Jesus']
+
+print(f"Unfortunely {guest_list[2]} will not be able to make it tonight.")
+
+#we will invite denay instead
+
+guest_list.insert(2,'Denay')
+
+print(guest_list)
+
