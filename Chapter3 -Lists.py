@@ -139,3 +139,17 @@ popped_motorcycles = motorcycles.pop() #We pop a value from the list and assigne
 print(motorcycles) #We print the list
 print(popped_motorcycles)#We print the pop value to show that we still have access to the value that was removed
 
+ #A greeat use case for the pop() method would be to see what was the last motorcycle we bought.
+
+motorcycle = ['honda','yamaha','suzuki']
+print(motorcycle)
+last_owned = motorcycle.pop()
+print(f"The last motorcycle I owned was a : {last_owned.title()} ")
+
+#Popping any positon on a list.
+motorcycle = ['honda','yamaha','suzuki']
+first_owned = motorcycle.pop(0)
+print(f"The First motorcycle I owned was a: {first_owned.title()}")
+
+
+
