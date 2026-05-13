@@ -173,3 +173,12 @@ print(motorcycle)
 print(f"\nA {too_expensive.title()} is too expensive for me.") #We print the list but are able to use 'ducati' in the new variable too_expensive and make a statement on why we removed 'ducati'
 #The remove method deletes the first occurrence of the value we chose but if we need to make all ocurrences are removed we need to create a "loop" (Explained in chapter 7)
 
+#3-4 Guest List
+
+guest_list = ['Brayan', 'Belkis','Jackie','Esme','Jesus','Jesus']
+print(f'{guest_list[0]}, you are invited to my event tonight.')
+print(f'{guest_list[1]}, you are invited to my event tonight.')
+print(f'{guest_list[2]}, you are invited to my event tonight.')
+print(f'{guest_list[3]}, you are invited to my event tonight.')
+print(f'{guest_list[4]}, you are invited to my event tonight.')
+print(f'{guest_list[5]}, you are invited to my event tonight.')
