@@ -151,5 +151,25 @@ motorcycle = ['honda','yamaha','suzuki']
 first_owned = motorcycle.pop(0)
 print(f"The First motorcycle I owned was a: {first_owned.title()}")
 
+#If you are ever stuck on using pop() or del statement. Ask yourself this:
+#If I want to delete something that I will NEVER use again, I'll go with a del statement.
+#If I want to delete something BUT want to use AGAIN, I'll go with with the pop() method.
 
+#In the future, you are going to have hundreds of lines of code and your lists will be as long too.
+#Instead of finding an index in a long list, you can add or remove one just by mentioning the value. Here's an example:
+
+motorcycle = ['honda','yamaha','suzuki', 'ducati']
+print(motorcycle)
+
+motorcycle.remove('honda')
+print(motorcycle) # The remove method, gets rid of the specific element by specifically mentioning by name.
+
+
+#You can also use the remove method to keep working with an element that was removed
+
+too_expensive = 'ducati' #assign the value to a new variable.
+motorcycle.remove('ducati') #We tell python to remove the value from the list
+print(motorcycle)
+print(f"\nA {too_expensive.title()} is too expensive for me.") #We print the list but are able to use 'ducati' in the new variable too_expensive and make a statement on why we removed 'ducati'
+#The remove method deletes the first occurrence of the value we chose but if we need to make all ocurrences are removed we need to create a "loop" (Explained in chapter 7)
 
