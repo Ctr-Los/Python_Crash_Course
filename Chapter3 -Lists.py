@@ -231,4 +231,19 @@ print(f'{guest_list[1]}, you are invited to my party!')
 print(f'{guest_list[0]} you are invited to my party!')
 del guest_list[0]
 del guest_list[0]
-print(guest_list) #Noe its an empty list. 
+print(guest_list) #Now its an empty list. 
+
+#Here is how to organize a list using the sort() method.
+
+
+cars = ['bmw','audi','subaru','toyota']
+cars.sort()
+print(cars) #Here the list is organized alphabetically, but also using .sort() will change it permanently. Which means we can never revert to the original order as before.
+
+#Now you can to the same but in reverse (backwards), using the reverse=True argument.
+
+
+cars = ['bmw','audi','subaru','toyota']
+cars.sort(reverse=True)
+print(cars) # Now its backwards. But also permanent
+
