@@ -317,3 +317,24 @@ print(twenty_twenty_six_list)
 
 #Accessing indexes
 print(twenty_twenty_six_list[0])
+
+#Inserting a value in the list
+
+twenty_twenty_six_list.insert(0,'Learn Spanish')
+print(twenty_twenty_six_list)
+
+# Using the del statement
+
+del twenty_twenty_six_list[0]
+print(twenty_twenty_six_list)
+
+#Using the pop() method
+
+
+twenty_twenty_six_list.pop(4)
+print(twenty_twenty_six_list)
+
+#remove() method
+
+twenty_twenty_six_list.remove('Earn 2 Certifications')
+print(twenty_twenty_six_list)
