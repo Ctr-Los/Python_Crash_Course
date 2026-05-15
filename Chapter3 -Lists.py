@@ -260,3 +260,10 @@ print(cars) #Printing again the list but will show the original.
 #sorted() does also accept reverse=True agrument.
 #NOTE that sorting a list alphabetically can be tough when not all values are not all lowercase.
 
+#To reverse the order of the original list, you can use the reverse() method
+
+cars = ['bmw','audi','subaru','toyota']
+print(cars)
+cars.reverse()
+print(cars) #Note that this also makes it permanent, but you can run reverse() again to the same list.
+
