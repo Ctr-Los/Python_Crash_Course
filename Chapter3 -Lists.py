@@ -270,4 +270,42 @@ print(cars) #Note that this also makes it permanent, but you can run reverse() a
 #If you want to find the length of a list you can use the len() method
 
 cars = ['bmw','audi','toyota','subaru']
-len(cars)
+len(cars) # length is 4 
+
+#3-8 Seeing the world.
+
+favorite_places = ['Japan','Mexico','Germany','Sweden','France']
+
+
+print(favorite_places)
+sorted(favorite_places)
+
+favorite_places = ['Japan','Mexico','Germany','Sweden','France']
+
+
+favorite_places.reverse()
+print(favorite_places)
+favorite_places.reverse()
+print(favorite_places)
+
+favorite_places = ['Japan','Mexico','Germany','Sweden','France']
+favorite_places.sort()
+print(favorite_places) #Alphabetized
+favorite_places.sort(reverse=True)
+print(favorite_places) #Reversed
+
+#3-9 Dinner Guest
+guest_list = ['Brayan', 'Belkis','Jackie','Esme','Jesus','Jesus']
+len(guest_list)#6
+
+
+#3-9 Guest list pt.2
+
+guest_list = ['Brayan', 'Belkis','Jackie','Esme','Jesus','Jesus']
+print("Good news! We found a bigger table, we can add more people.")
+guest_list.insert(0,'Denay')
+guest_list.insert(2,'Nora')
+guest_list.append('Alej')
+
+len(guest_list) #9
+
