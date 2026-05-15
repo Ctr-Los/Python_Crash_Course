@@ -338,3 +338,10 @@ print(twenty_twenty_six_list)
 
 twenty_twenty_six_list.remove('Earn 2 Certifications')
 print(twenty_twenty_six_list)
+
+twenty_twenty_six_list = ['Read 7 Books','Earn 2 Certifications','Build an app','Become an AI engineer']
+print(twenty_twenty_six_list)
+
+#Using the sort() method
+twenty_twenty_six_list.sort()
+print(twenty_twenty_six_list)
