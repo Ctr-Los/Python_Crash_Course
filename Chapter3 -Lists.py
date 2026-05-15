@@ -309,3 +309,11 @@ guest_list.append('Alej')
 
 len(guest_list) #9
 
+# 3-10 Every Function
+
+twenty_twenty_six_list = ['Read 7 Books','Earn 2 Certifications','Build an app','Become an AI engineer']
+
+print(twenty_twenty_six_list)
+
+#Accessing indexes
+print(twenty_twenty_six_list[0])
