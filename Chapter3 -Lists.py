@@ -208,3 +208,22 @@ print(f"Congrats, {guest_list[2]}. You are invited to my party!!")
 print(f'Congrats, {guest_list[3]}. You are invited to my party!!')
 print(f'Congrats, {guest_list[4]}. You are invited to my party!!')
 print(f'Congrats, {guest_list[5]}. You are invited to my party!!')
+
+#3-7 Shrinking the guest list.
+
+
+guest_list = ['Brayan', 'Belkis','Jackie','Esme','Jesus','Jesus']
+print("Good news! We found a bigger table, we can add more people.")
+guest_list.insert(0,'Denay')
+guest_list.insert(2,'Nora')
+guest_list.append('Alej')
+
+print("Unfortunely I can only invite two people to the event. I am so sorry.")
+
+guest_list.pop(0)
+guest_list.pop(1)
+guest_list.pop(4)
+
+print(guest_list) # I had to double check who was left on the list.
+
+
