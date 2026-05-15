@@ -345,3 +345,9 @@ print(twenty_twenty_six_list)
 #Using the sort() method
 twenty_twenty_six_list.sort()
 print(twenty_twenty_six_list)
+
+#Using the sorted() method
+sorted(twenty_twenty_six_list)
+print(twenty_twenty_six_list)
+
+
