@@ -354,3 +354,9 @@ print(twenty_twenty_six_list)
 print(twenty_twenty_six_list)
 twenty_twenty_six_list.reverse()
 print(twenty_twenty_six_list)
+
+twenty_twenty_six_list = ['Read 7 Books','Earn 2 Certifications','Build an app','Become an AI engineer']
+len(twenty_twenty_six_list)
+
+# Avoid index errors when working with lists
+
