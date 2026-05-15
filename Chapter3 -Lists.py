@@ -247,3 +247,16 @@ cars = ['bmw','audi','subaru','toyota']
 cars.sort(reverse=True)
 print(cars) # Now its backwards. But also permanent
 
+#If you are wondering how can we still sort the list BUT keep it the same way we had it before, you can use the sorted() method.
+#The sorted() method
+
+cars = ['bmw','audi','subaru','toyota']
+print(cars)
+
+print('\nHere is the sorted list:')
+print(sorted(cars)) #New sorted list using sorted()
+print('\nHere is the original list again:')
+print(cars) #Printing again the list but will show the original.
+#sorted() does also accept reverse=True agrument.
+#NOTE that sorting a list alphabetically can be tough when not all values are not all lowercase.
+
