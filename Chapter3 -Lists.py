@@ -267,3 +267,7 @@ print(cars)
 cars.reverse()
 print(cars) #Note that this also makes it permanent, but you can run reverse() again to the same list.
 
+#If you want to find the length of a list you can use the len() method
+
+cars = ['bmw','audi','toyota','subaru']
+len(cars)
