@@ -225,5 +225,10 @@ guest_list.pop(1)
 guest_list.pop(4)
 
 print(guest_list) # I had to double check who was left on the list.
-
-
+guest_list.pop(0)
+guest_list.pop(2)
+print(f'{guest_list[1]}, you are invited to my party!')
+print(f'{guest_list[0]} you are invited to my party!')
+del guest_list[0]
+del guest_list[0]
+print(guest_list) #Noe its an empty list. 
