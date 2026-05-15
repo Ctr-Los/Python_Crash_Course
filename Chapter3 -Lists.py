@@ -350,4 +350,7 @@ print(twenty_twenty_six_list)
 sorted(twenty_twenty_six_list)
 print(twenty_twenty_six_list)
 
-
+#printing the list in reversed order
+print(twenty_twenty_six_list)
+twenty_twenty_six_list.reverse()
+print(twenty_twenty_six_list)
