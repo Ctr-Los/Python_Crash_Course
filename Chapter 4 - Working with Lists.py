@@ -23,3 +23,6 @@ for magician in magicians: #Here we defined a for loop, this tells python to pul
 
 #using singular or plural names can help you tell the difference between a list trying to use a single element from a list or all the items from the entire list.
 
+magicians = ['alice','david','carolina']
+for magician in magicians:
+  print(magician.title()+", that was a great trick!")
