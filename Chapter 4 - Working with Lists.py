@@ -11,3 +11,15 @@ magicians = ['alice', 'david','carolina']
 for magician in magicians: #Here we defined a for loop, this tells python to pull all the name from the list magicians and then store them into the variable "magician"
   print(magician) #It reads the code as " For every magician in the list of magicians, print the magicians name"
 
+#The loop tells pyhton that you need to pull all the names from the list until there are no more. 
+#Once python see that there are no items left in the list, the program simply ends. 
+
+#Its important when choosing a name for your loop, a good name would be a name that represents a single item from the list. 
+#Example: 
+
+#for cat in cats:
+#for dog in dogs: 
+#for item in list_of_items: 
+
+#using singular or plural names can help you tell the difference between a list trying to use a single element from a list or all the items from the entire list.
+
