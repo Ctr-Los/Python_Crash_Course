@@ -32,7 +32,15 @@ for magician in magicians:
   print(magician.title() + ", that was a great trick!")
   print("I can't wait to see your next trick, " + magician.title() + ".\n")
   
+#Indentation is very important for when python sees what is in the loop.
+#Here is an example of what happens when a line of coe is not in the loop.
 
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+  print(magician.title() + ", that was a great trick!")
+  print("I can't wait to see your next trick, " + magician.title() + ".\n")
+
+print("Thank you, everyone. That was a great magic show!") #With this line of code, this will only be printed once.
 
 
 
