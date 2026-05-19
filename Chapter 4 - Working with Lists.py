@@ -42,5 +42,16 @@ for magician in magicians:
 
 print("Thank you, everyone. That was a great magic show!") #With this line of code, this will only be printed once.
 
+#Indentation errors.
+#Python does its best when using indentation, makes it easier for you to read code.
+#Using whitespaces for you to write neatly written code.
+#but sometimes there are times where you can make what is called "indentation errors"
 
+#Always indent the line after the for statement in a loop. Here is an example:
+
+magicians = ['alice', 'david','carolina']
+for magician in magicians:
+print(magician)
+#Once you run  it, python will be expecting indent block, but if it doesn't find one it will let you know which line is the problem.
+# Here is the error when you run it: IndentationError: expected an indented block after 'for' statement on line 9
 
