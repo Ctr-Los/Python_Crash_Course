@@ -96,3 +96,11 @@ for magician in magicians:
   print("Thank you everyone, that was a great magic show!")
 
   #Again always determine when you want to indent code so it can be counted inside the loop vs. unindent code that it can be counted outside the loop. 
+
+#Forgetting the colon 
+
+# : tells python thsat this is the start of the loop. 
+
+magicians = ['alice', 'david','carolina']
+for magician in magicians #Here I forgot to put the : on purpose. 
+  print(magician) #As a result python does not know what the hell I'm doing 
