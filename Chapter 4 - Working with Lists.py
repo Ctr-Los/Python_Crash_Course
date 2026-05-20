@@ -82,3 +82,17 @@ message = 'please do not indent this, please!'
   print(message) #Why did you do it!!!!
 
   #Just remember, you need to indent where you want the actions to repeat for each item in a for loop.
+
+#Indenting after the loop
+
+#Indenting code after running the loop, will repeat once, for each item on the list. But this will lead to a logic error. 
+#Here's an example: 
+
+magicians = ['alice', 'david','carolina']
+for magician in magicians: 
+  print(magician.title() + ", that was a great trick!")
+  print("I can't wait to see your next trick, " + magician.title() + ".\n")
+
+  print("Thank you everyone, that was a great magic show!")
+
+  #Again always determine when you want to indent code so it can be counted inside the loop vs. unindent code that it can be counted outside the loop. 
