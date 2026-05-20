@@ -74,3 +74,11 @@ print("I can't wait to see your next trick," + magician.title() + ".\n")
 #want, because the problem happens in its logic.
 #All you need to do to avoid this, is to see if you need to indent a line or a group of lines.
 
+#Unnecessary indenting
+
+#Try not to indent in places where you do NOT need to indent. Here's an example:
+
+message = 'please do not indent this, please!'
+  print(message) #Why did you do it!!!!
+
+  #Just remember, you need to indent where you want the actions to repeat for each item in a for loop.
