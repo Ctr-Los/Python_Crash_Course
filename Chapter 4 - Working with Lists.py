@@ -112,3 +112,10 @@ for magician in magicians #Here I forgot to put the : on purpose.
 pizza_list = ['pepperoni','cheese','meatlovers']
 for pizza in pizza_list:
   print("I like " + pizza.title())
+
+#4-2 
+animals = ['shark','whale','pistol shrimp']
+for animal in animals:
+  print("A " + animal.title() + " would make a great pet." )
+  print("A " + animal.title() + " would make a great pet, if you like animals of the ocean." + ".\n")
+print("All these animals have in common, is that they are from the ocean.")
