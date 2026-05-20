@@ -104,3 +104,11 @@ for magician in magicians:
 magicians = ['alice', 'david','carolina']
 for magician in magicians #Here I forgot to put the : on purpose. 
   print(magician) #As a result python does not know what the hell I'm doing 
+
+#Try it yourself 
+
+#4-1 
+
+pizza_list = ['pepperoni','cheese','meatlovers']
+for pizza in pizza_list:
+  print("I like " + pizza.title())
