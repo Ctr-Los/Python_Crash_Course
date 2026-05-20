@@ -66,3 +66,11 @@ for magician in magicians:
   print(magician.title() + ", that was a great trick!")
 print("I can't wait to see your next trick," + magician.title() + ".\n")
 
+#As you can see, once we forgot to indent the 2nd print statement. Python ran the code and it only counted the 1st print statement
+#In the loop. If python can find at least one indented line, then there is no error unlike the previous example before.
+#Notice that the final value (carolina) in magicians gets the 2nd print statement.
+
+#This is what is called a "logic error". The syntax is valid according to python, but the code does not produce the result that we
+#want, because the problem happens in its logic.
+#All you need to do to avoid this, is to see if you need to indent a line or a group of lines.
+
