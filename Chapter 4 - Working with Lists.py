@@ -55,3 +55,14 @@ print(magician)
 #Once you run  it, python will be expecting indent block, but if it doesn't find one it will let you know which line is the problem.
 # Here is the error when you run it: IndentationError: expected an indented block after 'for' statement on line 9
 
+#Forgetting to add indentations
+#Sometimes when you forget to indent code, python will run the code without any errors but will not produce the result.
+#This can happen when you are trying to run multiple things in a loop and forget to indent some of them.
+
+#Here is an example of this:
+
+magicians = ['alice','david','carolina']
+for magician in magicians:
+  print(magician.title() + ", that was a great trick!")
+print("I can't wait to see your next trick," + magician.title() + ".\n")
+
