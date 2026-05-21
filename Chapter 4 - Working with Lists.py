@@ -127,3 +127,12 @@ print("All these animals have in common, is that they are from the ocean.")
 
 for value in range(1,5):
   print(value)
+
+#As you can see, it did not print the number 5 but only up to 4. 
+#With range() the first digit where (1,) is, is the starting value. And (,5) is the last value. 
+#But with programming we are always in that "off by one" lifestyle. 
+
+#If you want to print with 5, all you need to do is add (1,6)
+for value in range(1,6):
+  print(value)
+
