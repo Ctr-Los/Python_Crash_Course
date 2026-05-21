@@ -136,3 +136,11 @@ for value in range(1,5):
 for value in range(1,6):
   print(value)
 
+#Using range() to make a list of numbers 
+
+#If you want to make a list of numbers, you can use the list() function. 
+#When you wrap list() around a call to range(), the output will be a list of numbers. 
+
+numbers = list(range(1,6))
+print(numbers)
+
