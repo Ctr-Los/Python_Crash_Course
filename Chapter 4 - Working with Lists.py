@@ -144,3 +144,11 @@ for value in range(1,6):
 numbers = list(range(1,6))
 print(numbers)
 
+#You can also skip numbers in your list in a given range. 
+even_numbers = list(range(2,11,2))
+print(even_numbers)
+
+#Here's how we break it down: 
+
+#In range (2,11,2)
+# The (2,)
