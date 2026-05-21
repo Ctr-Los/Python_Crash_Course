@@ -119,3 +119,11 @@ for animal in animals:
   print("A " + animal.title() + " would make a great pet." )
   print("A " + animal.title() + " would make a great pet, if you like animals of the ocean." + ".\n")
 print("All these animals have in common, is that they are from the ocean.")
+
+#Making Numerical lists 
+
+#In python you can make a list of numbers, especially with less code. 
+#You can use the range() function to generate a set of numbers pretty easily. 
+
+for value in range(1,5):
+  print(value)
