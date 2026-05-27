@@ -162,3 +162,10 @@ for value in range (1,11):
 
   print(squares)
   
+#Now you can make this more clean and shorter by combining "square = value**2" with "squares.append(square)"
+
+squares = []
+for value in range(1,11):
+  squares.append(value**2)
+  print(squares)
+
