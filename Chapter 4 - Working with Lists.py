@@ -152,3 +152,13 @@ print(even_numbers)
 
 #In range (2,11,2)
 # The (2,)
+
+# ** represents exponents, here is an example on how it would work:
+
+squares = []
+for value in range (1,11):
+  square = value**2
+  squares.append(square)
+
+  print(squares)
+  
