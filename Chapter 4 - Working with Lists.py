@@ -188,3 +188,8 @@ squares = [value**2 for value in range(1,11)]
 print(squares)
 
 #Consider writing your own list comprehensions, it will be worth it at the end.
+
+#4-3 Counting to twenty.
+
+for numbers in range(1,21):
+  print(numbers)
