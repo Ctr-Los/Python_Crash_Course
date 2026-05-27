@@ -178,3 +178,13 @@ digits = [1,2,3,4,5,6,7,8,9,0]
 min(digits)
 max(digits)
 sum(digits)
+
+#List comprehensions
+
+#List comprehensions are a way for you to generate the same list just in one line of code. This is done by using a for loop and the creation of new elements
+#into one line and this appends each new element
+
+squares = [value**2 for value in range(1,11)]
+print(squares)
+
+#Consider writing your own list comprehensions, it will be worth it at the end.
