@@ -203,3 +203,8 @@ for number in range(1,1000001):
 
 numbers = range(1,1000001)
 min(numbers)
+
+max(numbers)
+
+sum(numbers)
+
