@@ -218,3 +218,10 @@ for number in range(1,20,2):
 for number in range(3,30,3):
   print(number)
 
+#4-8 Cubes
+
+cubes = []
+
+for value in range(1,11):
+  cubes.append(value**3)
+print(cubes)
