@@ -213,3 +213,8 @@ sum(numbers)
 for number in range(1,20,2):
   print(number)
 
+#4-7 Threes
+
+for number in range(3,30,3):
+  print(number)
+
