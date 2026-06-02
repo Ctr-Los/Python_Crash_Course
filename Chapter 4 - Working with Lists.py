@@ -198,3 +198,8 @@ for numbers in range(1,21):
 
 for number in range(1,1000001):
   print(number)
+
+#4-5 Summing a Million
+
+numbers = range(1,1000001)
+min(numbers)
