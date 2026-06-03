@@ -243,3 +243,7 @@ print(players[0:3])
 
 print(players[1:4])
 
+#Now if you do not have a starting index when slicing, then python will start at the beginnig of the list.
+
+print(players[:4])
+#Same thing when there is no end index
