@@ -300,3 +300,16 @@ print(players[1:4])
 
 #Print the last three items of the list
 print(players[-3:])
+
+#4-11 My Pizzas, Your Pizzas
+
+my_pizza_list = ['pepperoni','cheese','meatlovers']
+friends_pizza_list = my_pizza_list[:]
+my_pizza_list.append("margarita")
+friends_pizza_list.append("Hawaiian")
+
+print("My favorite pizzas are:")
+print(my_pizza_list)
+
+print("\nMy friend's favorite pizzas are:")
+print(friends_pizza_list)
