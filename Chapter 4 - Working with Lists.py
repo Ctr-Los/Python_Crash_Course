@@ -286,3 +286,17 @@ print(friend_foods)
 #my_foods = friends_foods - This will only make them the same.
 #Now friends_foods is not its own list but the same as my_foods
 #You need to add the [:]
+
+#4-10 Slices
+
+#Print the first three items on the list
+
+players = ['charles','martina','micheal','florence','eli']
+
+print(players[:3])
+
+#Print three items from the middle of the list
+print(players[1:4])
+
+#Print the last three items of the list
+print(players[-3:])
