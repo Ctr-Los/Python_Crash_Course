@@ -250,3 +250,10 @@ print(players[:4])
 
 #Silcing also works with negative numbers
 print(players[-3:]) #Prints the last 3 names of the list.
+
+#You can also use a for loop when slicing.
+#In this example we can loop the first 3 names of players of the list
+
+players = ['charles','martina','micheal','florence','eli']
+for player in players[:3]:
+  print(player.title())
