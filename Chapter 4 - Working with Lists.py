@@ -269,3 +269,20 @@ print(my_foods)
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
 
+#If you want to add new items to the list but have each person have a different favorite food, just append the list to a
+#new item
+
+my_foods.append("cannoli")
+friend_foods.append('ice cream')
+
+print("My favorite food are:")
+print(my_foods)
+
+print("\nMy friend's favorite foods are:")
+print(friend_foods)
+
+
+#Do not try to make a copy of a list like this:
+#my_foods = friends_foods - This will only make them the same.
+#Now friends_foods is not its own list but the same as my_foods
+#You need to add the [:]
