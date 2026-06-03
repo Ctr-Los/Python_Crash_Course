@@ -257,3 +257,15 @@ print(players[-3:]) #Prints the last 3 names of the list.
 players = ['charles','martina','micheal','florence','eli']
 for player in players[:3]:
   print(player.title())
+
+#Copying a list
+
+#You can make a copy of a list by slicing the list. All you really have to do is just have an empty slicing template
+
+my_foods = ['pizza','falafel','carrot cake']
+friend_foods = my_foods[:] #Here is the empty slicing
+print(my_foods)
+
+print("\nMy friend's favorite foods are:")
+print(friend_foods)
+
