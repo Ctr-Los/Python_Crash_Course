@@ -313,3 +313,16 @@ print(my_pizza_list)
 
 print("\nMy friend's favorite pizzas are:")
 print(friends_pizza_list)
+
+my_pizza_list = ['pepperoni','cheese','meatlovers']
+friends_pizza_list = ['pepperoni', 'cheese', 'meatlovers', 'Hawaiian']
+
+
+
+print("My favorite pizzas are:")
+for pizza in my_pizza_list:
+  print(pizza.title())
+
+print("\nMy friend's favorite pizzas are:")
+for pizza in friends_pizza_list:
+  print(pizza.title())
