@@ -247,3 +247,6 @@ print(players[1:4])
 
 print(players[:4])
 #Same thing when there is no end index
+
+#Silcing also works with negative numbers
+print(players[-3:]) #Prints the last 3 names of the list.
