@@ -232,3 +232,14 @@ squares = [value**3 for value in range(1,11)]
 print(squares)
 
 
+#Slicing a list
+
+#When slicing a list you can specify the index of the first and last elements that you want. Here is an example:
+
+players = ['charles','martina','micheal','florence','eli']
+print(players[0:3])
+
+#Now here it is when you want the second, third and fourth items.
+
+print(players[1:4])
+
