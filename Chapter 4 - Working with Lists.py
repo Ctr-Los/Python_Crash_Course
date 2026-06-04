@@ -364,3 +364,10 @@ dimensions = (400,100)
 print("\nModified Dimensions are:")
 for dimension in dimensions:
   print(dimension)
+
+#4-13 Buffet
+
+buffet_foods = ('brisket','orange chicken','corn bread','steak','tacos')
+for Buffet in buffet_foods:
+  print("\nBuffet currently offers:")
+  print(Buffet.title())
