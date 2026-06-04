@@ -352,3 +352,15 @@ dimensions = (200,50)
 for dimension in dimensions:
   print(dimension)
   
+#Writing over tuples
+
+#Now while you cannot change the values in a tuple you can however overwrite them.
+
+dimensions = (200,50)
+print("Original Dimensions are:")
+for dimension in dimensions:
+  print(dimension)
+dimensions = (400,100)
+print("\nModified Dimensions are:")
+for dimension in dimensions:
+  print(dimension)
