@@ -326,3 +326,14 @@ for pizza in my_pizza_list:
 print("\nMy friend's favorite pizzas are:")
 for pizza in friends_pizza_list:
   print(pizza.title())
+
+#Tuples
+
+#Tuples are when you want a list that CANNOT be changed.
+#It is what you call "immutable" and an immutable list is called a tuple.
+#Tuples use () instead of a []
+
+
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
