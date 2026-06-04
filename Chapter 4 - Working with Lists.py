@@ -374,3 +374,8 @@ for buffet in buffet_foods:
 
 buffet_foods [0] = 'coleslaw'
 print(buffet_foods)
+
+modified_buffet_foods = ('brisket','orange chicken','corn bread','hot dogs','burgers')
+print("\nBuffet now offers:")
+for buffet_foods in modified_buffet_foods:
+  print(buffet_foods.title())
