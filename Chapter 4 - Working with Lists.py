@@ -345,3 +345,10 @@ dimensions[0] = 250
 
 #Here python knows that this is a tuple and that it cannot change.
 #Instead you will get an error: TypeError: 'tuple' object does not support item assignment
+
+#Now you can use for loops in tuples.
+
+dimensions = (200,50)
+for dimension in dimensions:
+  print(dimension)
+  
