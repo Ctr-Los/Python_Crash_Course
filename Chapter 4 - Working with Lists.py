@@ -379,3 +379,34 @@ modified_buffet_foods = ('brisket','orange chicken','corn bread','hot dogs','bur
 print("\nBuffet now offers:")
 for buffet_foods in modified_buffet_foods:
   print(buffet_foods.title())
+
+#Styling your code
+
+#Take time to make your code as easy as possible to READ. 
+#Follow these guidelines if you want to be a professional programer
+#Python Enhancement Proposal (PEP), this instructs python programers on how to style their code. 
+#Code is often read than written, you'll spend more time reading code. 
+#Write clear code from the start.
+
+#Indentation
+#PEP8 recommends to use four spaces per indentation level.
+#this helps improve readability while also leaving room for multiple levels of indentation on each line. 
+#Python interpreter gets confused when there is a mix of tabs and spaces. 
+#Use your TAB key but make sure your editor is set to "spaces" rather than tabs into your document
+#Mixing tabs and spaces can cause problems in your file, that make it hard to figure out. 
+#If you think you have a mix of theses, you can convert all tabs in a file to spaces in most editors. 
+
+
+#Line Length 
+#Many python programmers recommend that each line should be less than 80 characters. 
+#This tends to be when programmers have many files open on the same screen and using the standard line length allows them to see entire lines in 
+#two or three files that are open side by side on your screen. 
+#Limit all your comments to 72 characters per line. 
+#Just know that you are working with other programers that follow the PEP 8 guidelines
+
+#Blank Lines 
+#To group parts of your program visually, use blank lines
+#if you have five lines of code that build a list, and then another three lines that do something with that list, it's appropriate to place a blank lines 
+#between the two sections 
+#Python interpreter uses horizontal indentation to interpret the meaning of your code, but it disregards vertical spacing. 
+
