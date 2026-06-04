@@ -337,3 +337,11 @@ for pizza in friends_pizza_list:
 dimensions = (200, 50)
 print(dimensions[0])
 print(dimensions[1])
+
+#Here is what happens if we try to change the tuple.
+
+dimensions = (200,5)
+dimensions[0] = 250
+
+#Here python knows that this is a tuple and that it cannot change.
+#Instead you will get an error: TypeError: 'tuple' object does not support item assignment
