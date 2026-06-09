@@ -47,3 +47,17 @@ car = 'Audi'
 car.lower() == 'audi'
 
 #Here is an example of the code being case-insesitive, meaning that upper-case and lower-case values are the same.
+
+#Checking for inequality
+
+#When you want to see if two values are not equal, you can use the != sign this means "not"
+
+
+#Here's an example:
+
+requested_topping = 'mushrooms'
+
+if requested_topping != 'anchovies':
+  print("Hold the anchovies")
+
+  #The value for requested_toppings is not anchovies, the print statement is executed.
