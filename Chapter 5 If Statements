@@ -28,3 +28,8 @@ for car in cars:
 
 car = 'bmw'
 car == 'bmw' #car is assigned to bmw. Is car equal to bmw?
+
+#Here is an example when it is false
+
+car = 'audi'
+car == 'bmw'
