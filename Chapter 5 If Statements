@@ -61,3 +61,11 @@ if requested_topping != 'anchovies':
   print("Hold the anchovies")
 
   #The value for requested_toppings is not anchovies, the print statement is executed.
+
+#Numerical Comparisons
+
+#Pretty much the same thing when it came to strings
+
+age = 18
+
+age == 18
