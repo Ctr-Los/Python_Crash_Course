@@ -33,3 +33,10 @@ car == 'bmw' #car is assigned to bmw. Is car equal to bmw?
 
 car = 'audi'
 car == 'bmw'
+
+#Case sensitive
+
+#Testing for equality is important especially when it comes to case sensitive
+
+car = 'Audi'  #here I made audi uppercase, this will turn out to be false.
+car == 'audi'
