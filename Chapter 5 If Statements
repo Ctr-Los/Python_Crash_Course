@@ -21,3 +21,10 @@ for car in cars:
 #At the heart of every if statement, it can be seen as a true/false approach. In the case of python it is called a conditional test.
 #meaning it will determine if the conditions are met and should be executed.
 #When the condition is true, the code will execute, and if it is false then the code will be ignored.
+
+#Checking for equity
+
+#Most conditional test are confirmed when the current value of a variable to a specific value of interest.
+
+car = 'bmw'
+car == 'bmw' #car is assigned to bmw. Is car equal to bmw?
