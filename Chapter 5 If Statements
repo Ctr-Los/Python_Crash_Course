@@ -40,3 +40,10 @@ car == 'bmw'
 
 car = 'Audi'  #here I made audi uppercase, this will turn out to be false.
 car == 'audi'
+
+#Now if you just dont care about the case, and just want to test the value of a variable
+
+car = 'Audi'
+car.lower() == 'audi'
+
+#Here is an example of the code being case-insesitive, meaning that upper-case and lower-case values are the same.
