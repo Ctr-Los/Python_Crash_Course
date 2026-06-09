@@ -3,3 +3,15 @@
 
 #If statements allow you to see the current state of the program and see the conditions.
 #This chapter will teach you how to write conditional statements.
+
+cars = ['audi','bmw','subaru','toyota']
+
+for car in cars:
+  if car == 'bmw':
+    print(car.upper())
+  else:
+    print(car.title())
+
+#Here python checks to see if the current value of car is bmw
+#and if it IS then it will print the value in uppercase
+#BUT if the value is anything other than bmw then the other values will be printed that are not bmw are printed in title.
