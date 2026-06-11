@@ -100,3 +100,8 @@ age_1 = 18
 age_0 >= 21 and age_1 >= 21
 
 #Here age_0 is true but age_1 is false because 18 is not greater than or equal to 21. Therefore this is FALSE
+
+age_1 = 22
+
+age_0 >= 21 and age_1 >= 21 #Here I changed age_1 to 22 which is greater than 21 and that means both tests are true and therefore it is TRUE
+#If you want to improve readability, you can add parenthesis to the tests
