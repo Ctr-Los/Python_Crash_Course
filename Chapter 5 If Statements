@@ -79,3 +79,13 @@ if answer != 42:
   print('That is not the correct answer. Please try again!') #Here the test passes because 17 is not equal to 42 and therefore the
   #code block is executed.
 
+#You can add other mathematical expressions such as < or > and <= >=
+
+age = 19
+age < 21
+
+age <= 21
+
+age > 21
+
+age >= 21
