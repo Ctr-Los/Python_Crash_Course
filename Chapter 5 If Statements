@@ -89,3 +89,14 @@ age <= 21
 age > 21
 
 age >= 21
+
+#Checking multiple conditions
+
+#Python allows you to check multiple conditions, using the keyword "and" you can check if both conditions are true.
+#It's simple, if both are true then its true if both are false then its false. And if only one of them is false and the other is true it is still false.
+
+age_0 = 22
+age_1 = 18
+age_0 >= 21 and age_1 >= 21
+
+#Here age_0 is true but age_1 is false because 18 is not greater than or equal to 21. Therefore this is FALSE
