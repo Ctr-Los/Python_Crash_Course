@@ -105,3 +105,5 @@ age_1 = 22
 
 age_0 >= 21 and age_1 >= 21 #Here I changed age_1 to 22 which is greater than 21 and that means both tests are true and therefore it is TRUE
 #If you want to improve readability, you can add parenthesis to the tests
+
+#You can use parenthesis to improve readability but its not required, and it would come out with the parenthesis as well. 
