@@ -135,3 +135,15 @@ requested_toppings = ['mushrooms','onions','pineapple']
 
 requested_toppings = ['mushrooms','onions','pineapples']
 'pepperoni' in requested_toppings #Pepperoni is NOT in the list, therefore it is false. 
+
+#Check whether a value is NOT in a list. 
+
+#If you ever want to know a value does not appear in a list. 
+#Using the keyword 'not' can help. 
+#This is great when, seeing if a user has been banned before reinstating them. 
+
+banned_users = ['andrew','carolina','david']
+user = 'marie'
+
+if user not in banned_users: #Here we are checking if marie is not in the banned list, which she is not, therefore she can respond. 
+  print(user.title()+ ', you can post a response if you wish')
