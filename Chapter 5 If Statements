@@ -107,3 +107,14 @@ age_0 >= 21 and age_1 >= 21 #Here I changed age_1 to 22 which is greater than 21
 #If you want to improve readability, you can add parenthesis to the tests
 
 #You can use parenthesis to improve readability but its not required, and it would come out with the parenthesis as well. 
+
+#Here is how we can check multiple conditions. Here is the or expression, the or expression will turn out FALSE if both are false.
+
+age_0 = 22 
+age_1 = 18 
+
+age_0 >= 21 or age_1 >=21 #Despite only one of them being false, as long as the other one is true then the whole thing is true. 
+
+age_0 = 18
+
+age_0 >= 21 or age_1>21 #Here both are false, therefore the whole thing is false. 
