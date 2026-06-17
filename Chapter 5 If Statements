@@ -130,3 +130,8 @@ age_0 >= 21 or age_1>21 #Here both are false, therefore the whole thing is false
 requested_toppings = ['mushrooms','onions','pineapple']
 
 'mushrooms' in requested_toppings #This comes out to be true because there is a value called mushrooms in the list. 
+
+#Here is one where is NOT in the list 
+
+requested_toppings = ['mushrooms','onions','pineapples']
+'pepperoni' in requested_toppings #Pepperoni is NOT in the list, therefore it is false. 
