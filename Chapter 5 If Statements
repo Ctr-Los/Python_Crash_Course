@@ -118,3 +118,15 @@ age_0 >= 21 or age_1 >=21 #Despite only one of them being false, as long as the 
 age_0 = 18
 
 age_0 >= 21 or age_1>21 #Here both are false, therefore the whole thing is false. 
+
+#Checking whether a value is in a list. 
+
+#If you ever want to check if there is a specific value in a list you can use the keyword "in"
+
+#This is great when you need to see if there is a username avaliable when signing someone up. 
+
+#Here is an example:
+
+requested_toppings = ['mushrooms','onions','pineapple']
+
+'mushrooms' in requested_toppings #This comes out to be true because there is a value called mushrooms in the list. 
