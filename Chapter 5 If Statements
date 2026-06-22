@@ -153,3 +153,47 @@ if user not in banned_users: #Here we are checking if marie is not in the banned
 #A Boolean value is either "True" or "False", after it has been evaluated.
 #Boolean values are used to keep track for certain conditions
 
+#5-1 Conditional Tests
+
+
+#-----------My 5 True test cases-----------------------------
+
+console = 'playstation 5'
+print("Is console == 'playstation 5' I predict True")
+print(console == 'playstation 5')
+
+print("\nIs console != 'Xbox' I predict True")
+print(console != 'Xbox' )
+
+
+print("\n Is console.title() == 'Playstation 5', I predict True")
+print(console.title() == 'Playstation 5')
+
+print("\n Is len(console) == 13, I predict True")
+print(len(console) == 13)
+
+#-------------------------------------------------------------------
+
+
+#Here it is when playstation 5 is uppercase when its lowercase, meaning it is case sensitive
+
+print("\nIs console == 'Playstation 5' I predict False")
+print(console == 'Playstation 5')
+
+#------------------------My 5 false test cases -----------------------------------------------------------------------
+
+print("\nIs console == 'Xbox' I predict False")
+print(console == 'Xbox')
+
+print("\nIs console == 'steam deck' I predict False")
+print(console == 'steam deck')
+
+print("\nIs console == 'nintendo switch' I predict False")
+print(console == 'nintendo switch')
+
+print("\nIs console == 'nintendo Wii' I predict False")
+print(console == 'nintendo Wii')
+
+print("\nIs console == 'Xbox 360' I predict False")
+print(console == 'Xbox 360')
+
