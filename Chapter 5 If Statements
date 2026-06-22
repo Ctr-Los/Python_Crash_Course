@@ -147,3 +147,9 @@ user = 'marie'
 
 if user not in banned_users: #Here we are checking if marie is not in the banned list, which she is not, therefore she can respond. 
   print(user.title()+ ', you can post a response if you wish')
+
+#Boolean expression (True or False)
+
+#A Boolean value is either "True" or "False", after it has been evaluated.
+#Boolean values are used to keep track for certain conditions
+
