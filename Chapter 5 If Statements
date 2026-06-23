@@ -225,5 +225,24 @@ if age >= 18:
   print("You are old enough to vote!")
   print("Have you registered to vote yet?")
 
+#if-else statements
 
+#What if in your if statement you want to have it execute one action when it passes but also executes something
+#when it does not pass?
+
+#if-else statements are there for when there are 2 different outcomes when seeing if conditions are met.
+#the else statement is for when the condition does NOT pass.
+
+#Here is an example:
+
+age = 17 #Here our age is under the requirement to vote, which means this condition will not pass.
+if age >= 18:
+  print("You are old enough to vote!")
+  print("Have you registered to vote yet?")
+else: #here is the else statement and since the condition will not pass, we will see this block of code execute.
+  print("Sorry you are too young to vote.")
+  print("Please register to vote as soon as you turn 18!")
+
+
+  #if-else statements work when you want 2 different outcomes in your python code.
 
