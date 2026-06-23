@@ -197,3 +197,16 @@ print(console == 'nintendo Wii')
 print("\nIs console == 'Xbox 360' I predict False")
 print(console == 'Xbox 360')
 
+#If statements
+
+#There are many types of if statements and the choice depends on how many conditions you need to test.
+
+#if statements look like this:
+
+#if conditional test:
+  #do something
+
+#When running the test, python will see if the condition is True or False
+#When it is True, python executes the code following the if statement
+#When it is False, python will NOT executes the code.
+
