@@ -210,3 +210,12 @@ print(console == 'Xbox 360')
 #When it is True, python executes the code following the if statement
 #When it is False, python will NOT executes the code.
 
+#voting.py
+
+age = 19 #Here is the value to our variable of "age"
+if age >= 18: #Here is the condition of the if statement, from here it will see if the conditions are met.
+  print("You are old enough to vote!") #Since the conditions are met, the print statement will execute.
+
+
+
+
