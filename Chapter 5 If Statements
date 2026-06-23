@@ -216,6 +216,14 @@ age = 19 #Here is the value to our variable of "age"
 if age >= 18: #Here is the condition of the if statement, from here it will see if the conditions are met.
   print("You are old enough to vote!") #Since the conditions are met, the print statement will execute.
 
+#It is very important that you indent your lines of code when using if statements
+#Every line or block of code that is idented inside the if statement will execute, there is no limit on how
+#big or long the code is inside the if statement, as long as it meets the conditions and then executes.
+
+age = 19
+if age >= 18:
+  print("You are old enough to vote!")
+  print("Have you registered to vote yet?")
 
 
 
