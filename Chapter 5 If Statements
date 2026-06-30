@@ -300,3 +300,9 @@ else:
   price = 5
 
 print("Your admissions cost is $"+str(price)+".")
+
+#Omitting the else block
+#Python does not require the need of a else block, it helps sometimes when you want to make your
+#code clearer
+#The else block matches any condition that wasnt matched with a specific if or elif test.
+#if you have a specific elif block and omit the else block
