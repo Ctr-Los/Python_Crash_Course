@@ -270,3 +270,18 @@ elif age < 18:
 else:
   print("Your admission is $10")
 
+#Instead of printing the admission price inside the if-elif-else block, you can
+#set the price inside the if-elif-else chain and have a simple print statement when the tests runs
+
+age = 12
+
+if age < 4:
+  price = 0 #We set the value of the prices here
+elif age < 18:
+  price = 5 #We set the value of the prices here
+else:
+  price = 10 #We set the value of the prices here
+print("Your admissions cost is $"+str(price)+".")
+
+#The whole purpose of this exmaple was to show the chain more narrower so it can determine the admission price
+#And also you can modify it more easily just by changing one print statement instead of 3.
