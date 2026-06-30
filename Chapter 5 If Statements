@@ -246,3 +246,27 @@ else: #here is the else statement and since the condition will not pass, we will
 
   #if-else statements work when you want 2 different outcomes in your python code.
 
+#if-else chain
+
+#There will be times when you need to test more than 2 possible situations and this is where if-else chains
+#comes in.
+
+#It runs each conditional test in order until one passes, when the test passes the following code skips the
+#rest of the tests.
+
+#For example, say you want to see the price rate for an anmusement park based on different age groups
+#Here is an example:
+
+#Admission is free for anyone under 4 years old
+#Admission for anyone between the ages of 4 and 18 is $5
+#Admission for anyone age 18 or older is $10
+
+age = 12
+
+if age < 4:
+  print("Your admission cost is $0.")
+elif age < 18:
+  print("Your admission is $5")
+else:
+  print("Your admission is $10")
+
