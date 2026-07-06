@@ -433,3 +433,16 @@ requested_toppings = ['mushrooms','green peppers','extra cheese']
 for requested_topping in requested_toppings:
   print("Adding " + requested_topping + ".")
 print("\nFinished making your pizza!")
+
+#Now what happens if we were to run out of green peppers?
+
+#an if statement inside the for loop can fix this:
+
+requested_toppings = ['mushrooms','green peppers','extra cheese']
+for requested_topping in requested_toppings:
+  if requested_topping == 'green peppers':
+    print("Sorry, we are out of green peppers right now.")
+  else:
+    print("Adding " + requested_topping + ".")
+
+print("\nFinished making your pizza!")
