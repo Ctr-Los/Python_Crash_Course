@@ -306,3 +306,22 @@ print("Your admissions cost is $"+str(price)+".")
 #code clearer
 #The else block matches any condition that wasnt matched with a specific if or elif test.
 #if you have a specific elif block and omit the else block
+
+#Testing multiple conditions
+#Using just if statements can be very useful
+#especially when you think you might have more than one
+#could be true. And you want to act on every
+#condition that could be true.
+#Here is an example:
+
+requested_toppings = ['mushrooms','extra cheese']
+if 'mushrooms' in requested_toppings: #All three of these test are executed when run.
+  print("Adding mushrooms.")
+if 'pepperoni' in requested_toppings:
+  print("Adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+  print("Adding extra cheese.")
+print("\nFinished making your pizza!")
+
+#If we were to just use the if-elif and else blocks then the block would've ended
+#early as you only need one test to pass.
