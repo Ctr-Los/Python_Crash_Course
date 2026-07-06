@@ -325,3 +325,19 @@ print("\nFinished making your pizza!")
 
 #If we were to just use the if-elif and else blocks then the block would've ended
 #early as you only need one test to pass.
+
+#Here is an example of that:
+
+requested_toppings = ['mushrooms','extra cheese']
+if 'mushrooms' in requested_toppings: #All three of these test are executed when run.
+  print("Adding mushrooms.")
+elif 'pepperoni' in requested_toppings:
+  print("Adding pepperoni.")
+elif 'extra cheese' in requested_toppings:
+  print("Adding extra cheese.")
+print("\nFinished making your pizza!")
+
+#The first topping is added but the rest are missing
+
+#So remember, if you want to run one block of code use if-elif-else chain
+#And if you want to run more than one block, use a series of if statements
