@@ -422,3 +422,14 @@ if 'strawberries' in favorite_fruits:
   print("You really like strawberries!")
 if 'grapes' in favorite_fruits:
   print("You do not have grapes in your favorites!")
+
+#Using if statements with lists. 
+
+#You can combine lists and if statements, this can help with looking out for special values that need to be treated differently.
+
+#A good example would be 'bmw' which is a special value. Becuase it needs to be printed differently. 
+
+requested_toppings = ['mushrooms','green peppers','extra cheese']
+for requested_topping in requested_toppings:
+  print("Adding " + requested_topping + ".")
+print("\nFinished making your pizza!")
