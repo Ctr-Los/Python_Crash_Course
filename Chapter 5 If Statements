@@ -341,3 +341,14 @@ print("\nFinished making your pizza!")
 
 #So remember, if you want to run one block of code use if-elif-else chain
 #And if you want to run more than one block, use a series of if statements
+
+#5-3 Alien Colors
+
+alien_color = 'green'
+
+if alien_color == 'green':
+  print("You earned 5 points!")
+elif alien_color == 'yellow':
+  print("You earned no points!")
+elif alien_color == 'red':
+  print("You earned no points!")
