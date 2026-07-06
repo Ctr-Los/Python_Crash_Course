@@ -406,3 +406,19 @@ elif age >= 65:
   print("This is an elder")
 else:
   print("No age available.")
+
+#5-7 Favorite Fruit
+
+favorite_fruits = ['apples','oranges','bananas','strawberries']
+
+
+if 'apples' in favorite_fruits:
+  print("You really like apples!")
+if 'oranges' in favorite_fruits:
+  print("You really like oranges!")
+if 'bananas' in favorite_fruits:
+  print("You really like bananas!")
+if 'strawberries' in favorite_fruits:
+  print("You really like strawberries!")
+if 'grapes' in favorite_fruits:
+  print("You do not have grapes in your favorites!")
