@@ -462,3 +462,20 @@ else:
 
   #If you run the program again where there is at least ONE topping in the list, the result would be
   #"Finished making your pizza!"
+
+#Using multiple lists.
+
+#Lets say a customer wants to add basically anything to their pizza, like skittles or french fries.
+#You can use lists and if statements to make sure your input makes sense before you act upon it.
+
+#Here is an example of when that happens:
+
+available_toppings = ['mushrooms','olives','green peppers','pepperoni','pineapple','extra cheese']
+
+requested_toppings = ['mushrooms','french fries','extra cheese']
+
+for requested_topping in requested_toppings:
+  if requested_topping in available_toppings:
+    print("Adding " + requested_topping + '.')
+  else:
+    print("Sorry we don't have " + requested_topping+ ".")
