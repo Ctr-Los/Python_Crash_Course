@@ -446,3 +446,19 @@ for requested_topping in requested_toppings:
     print("Adding " + requested_topping + ".")
 
 print("\nFinished making your pizza!")
+
+#Its important to check a list before running a for loop.
+
+#Here is an example to see what happens when the list of toppings are empty before choosing toppings.
+
+requested_toppings = [] #Here we made an empty list on purpose to see what happens when there are no toppings.
+
+if requested_toppings:
+  for requested_topping in requested_toppings:
+    print("Adding " + requested_topping + ".")
+  print("\nFinished making your pizza!")
+else:
+  print("Are you sure you want a plain pizza?") #Here is the condition if there are no toppings.
+
+  #If you run the program again where there is at least ONE topping in the list, the result would be
+  #"Finished making your pizza!"
