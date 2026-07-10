@@ -22,3 +22,5 @@ print(alien_0['points'])
 alien_0 = {'color':'green'}
 
 print(alien_0['color'])
+
+#For example you can see how many points a player earns when they shoot down an alien.
