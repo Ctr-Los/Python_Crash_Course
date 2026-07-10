@@ -14,3 +14,11 @@ print(alien_0['points'])
 #A dictionary is wrapped with a {} braces. Inside you put the key-value pairs.
 #'color' is the KEY and 'green' is the VALUE
 #Each key-value pair is seperated by a comma and you can add as many of them as you like!
+
+# Accessing values in a dictionary
+
+# To print out the value of a key, you need to give the name of the dictionary and then place the name of the key inside the square brackets []
+
+alien_0 = {'color':'green'}
+
+print(alien_0['color'])
