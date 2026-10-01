@@ -84,4 +84,21 @@ print(message)
 message = "Hello, World, my name is Carlos Huerta-Enciso and I am a coder!"
 print(message)
 
+#strings 
 
+#A string is a series of characters, which are encased in "", so a string is anything in quotes. 
+#A string can be single or double quotes, and if you write a word that has an apostrophe ('). 
+
+#Here is an example of a string with the addition of using a method. 
+
+name = "ada lovelace" #here is our string 
+print(name.title()) #And here is the name of our variable with the method attached, which the .title() method will make the string in proper upper-case. 
+
+# A method is a form of action where python will take on the piece of data. Every method is followed by a set of parenthesis. Sometimes methods may need additional work and you 
+# Would add in the parenthesis, but in the case of .title() we don't need to, so we leave it empty. 
+
+
+#Here are some other methods: 
+
+print(name.upper()) #This one makes it in all caps 
+print(name.lower()) #This one makes it in all lowercase
