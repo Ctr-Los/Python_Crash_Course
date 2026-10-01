@@ -71,3 +71,17 @@ print(mesage) #Here the error it mentioned in which line (13) and the interprete
               # A python interpreter doesn't do spell checks but they do make sure that it matches to what its running.
 
 
+#Try it yourself
+
+#2-1 Simple Message:
+
+message = "Hello, World"
+print(message)
+
+
+#2-2 Simple Messages
+
+message = "Hello, World, my name is Carlos Huerta-Enciso and I am a coder!"
+print(message)
+
+
