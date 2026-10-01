@@ -30,3 +30,25 @@ print(message)
 
 #Now you will see two outputs.
 #you can change the values of the variables and python will keep track of those changes.
+
+
+#When using variables, there are some rules when it comes to naming conventions
+#Breaking these rules will disrupt your program and also make you an inefficient programer.
+#These rules will make is easier for your code to be clean and easy to read:
+
+
+#variable names can only contain letters, numbers, and underscores.
+  #They CANNOT start with a number but can start with a underscore and letter.
+  # ex. message_1 (Good) | 1_message (Bad)
+
+#Spaces are NOT allowed to be used, you can use underscores in replacement of spaces.
+  # greeting_message (Good) | greetingmessage (Bad)
+
+#Avoid using python keywords, such as using function names as variable names.
+  # ex. using print as a variable name.
+
+#When trying to name a variable, try to make it short and clear.
+  # ex. name (Good) | n (Bad) | student_name (Good) s_n (Bad)
+
+ #Be careful when using lower and upper-case letters, because they can be confusing sometimes.
+  # ex. A 0 (zero) can be mistaken for the letter O.
