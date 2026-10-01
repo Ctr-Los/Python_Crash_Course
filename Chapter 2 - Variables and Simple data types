@@ -52,3 +52,22 @@ print(message)
 
  #Be careful when using lower and upper-case letters, because they can be confusing sometimes.
   # ex. A 0 (zero) can be mistaken for the letter O.
+
+#When you make a mistake:
+
+#It will happen when you make a mistake in your code. As long as you can find the issue, you will be fine.
+#Here is an example of making a spelling mistake:
+  #message = "Hello Python Crash Course reader!"
+  #print(mesage)
+
+#Now here we mispelled the name of our variable and the python interpreter will flag this as an error.
+#The interpreter will do something called a "traceback", where it will try its best to figure out the problem and keep a
+#record of the problem.
+
+message = "Hello Python Crash Course reader!"
+print(mesage) #Here the error it mentioned in which line (13) and the interpreter will show us where the error is.
+              #The "NameError" is telling us that the variable is not defined, which could be that we didn't set
+              # a value to the variable or that we did a spelling mistake.
+              # A python interpreter doesn't do spell checks but they do make sure that it matches to what its running.
+
+
