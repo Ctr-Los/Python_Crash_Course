@@ -138,3 +138,16 @@ print("Languages:\nPython\nC\nJavaScript")
 #You can combine newlines and tabs when coding.
 
 print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+#Stripping whitespaces
+
+#Whitespaces can confuse programs, python will detect the whitespace and it will see it as another.
+
+#This can be hard when trying to compare strings, e.g checking usernames
+#Python does offer a way to remove whitespaces using the rstrip() method.
+
+favorite_language = "Python " #Add a whitespace here
+
+favorite_language.rstrip() #Use rstrip() method and it will remove the whitespace
+
+print(favorite_language) #Now the output is free from whitespaces,
