@@ -134,3 +134,7 @@ print("\tPython") #With \t
 #Now here is an output with \n (newline)
 
 print("Languages:\nPython\nC\nJavaScript")
+
+#You can combine newlines and tabs when coding.
+
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
