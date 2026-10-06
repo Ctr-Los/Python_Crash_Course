@@ -102,3 +102,20 @@ print(name.title()) #And here is the name of our variable with the method attach
 
 print(name.upper()) #This one makes it in all caps 
 print(name.lower()) #This one makes it in all lowercase
+
+#Combining or Concatenating Strings
+
+#It is useful to combine strings, especially when you combine variables to each other.
+
+#Here is an example of combining a first and last name together:
+
+first_name = "Carlos"
+
+last_name = "Huerta-Enciso"
+
+full_name = first_name + " " + last_name #Here is where concatination comes in, as we are combining both strings together.
+
+print(full_name) #The combination of strings is what we call concatination
+
+
+print("Hello, " + full_name,"!")
