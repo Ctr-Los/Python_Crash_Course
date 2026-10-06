@@ -130,3 +130,7 @@ print("Hello, " + full_name,"!")
 print("Python") #Whithout \t
 
 print("\tPython") #With \t
+
+#Now here is an output with \n (newline)
+
+print("Languages:\nPython\nC\nJavaScript")
