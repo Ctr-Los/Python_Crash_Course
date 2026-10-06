@@ -151,3 +151,27 @@ favorite_language = "Python " #Add a whitespace here
 favorite_language.rstrip() #Use rstrip() method and it will remove the whitespace
 
 print(favorite_language) #Now the output is free from whitespaces,
+
+#Now what happens if there is a whitespace on the left side?
+
+favorite_language = " Python"
+
+favorite_language.rstrip()
+
+
+#As you can see it did nothing, that is because it turns out that rstrip() only removes the whitespaces from the right side.
+#For us to remove whitespace from the left side, we need to use lstrip() method.
+
+favorite_language.lstrip()
+
+print(favorite_language)
+
+
+#If you ever encounter having whitespaces on both sides, you can use the strip() method.
+
+favorite_language = " Python "
+
+favorite_language.strip()
+
+
+#Removing whitespaces helps you become more familar with manipulating strings and especially when you need to clean up your code.
