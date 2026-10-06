@@ -119,3 +119,14 @@ print(full_name) #The combination of strings is what we call concatination
 
 
 print("Hello, " + full_name,"!")
+
+#Adding whitespaces to strings with tabs or newlines.
+
+#Whitespaces are refered as "nonprinting character", basically spaces and tabs and end of line symbols (binary numbers)
+#You can use whitespaces to your advantage, where you can make your code more easy to read.
+
+#Here is the difference between adding the \t (tab) to an output.
+
+print("Python") #Whithout \t
+
+print("\tPython") #With \t
