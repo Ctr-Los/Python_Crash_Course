@@ -218,3 +218,7 @@ print(name.lower())
 
 print(name.title())
 
+#2-5
+
+
+print(f'Frida Kahlo once said, "I never paint dreams or nightmares. I paint my own reality."')
