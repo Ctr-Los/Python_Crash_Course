@@ -190,3 +190,10 @@ print(message)
 
 #Here we are faced with an error, and python is telling us that there is an undetermined string literal and therefore we have a syntax error.
 #The good thing is, is that python can help tell you where your error is happening. There will be times you will face errors when coding in python and will be annoying but don't give up.
+
+#Printing in python 2
+#python2.7
+#print "Hello Python 2.7 world!"
+
+#Printing in python 2 is different than in python 3, is that python 2 uses a different syntax than 3.
+#One example is that in certain cases, in python 2 you can print without a parenthesis.
