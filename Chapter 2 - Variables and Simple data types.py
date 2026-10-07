@@ -334,3 +334,17 @@ message = "My favorite number is " + str(number) + "."
 
 print(message)
 
+#Comments
+
+#Comments are a useful feature, and what you've been reading in green this whole time. 
+#They can help once you are creating longer and more complex programing, think of it as writing notes to explain your process and reasoning behind each thing. 
+# To create a comment, use a hashmark # 
+
+#Comments can help you not run certain parts of your code: 
+
+#Say Hello to everyone. ----- Here is just notes on what this part of the program does, but also will not execute. 
+print("Hello everyone!") #This part does though
+
+#It is wise to write meaningful comments, because you want to maintain a level of good code and that needs good documentation not to mentioned you will be working with other programmers and they will need to see your
+#code. Be clear and detailed. 
+
