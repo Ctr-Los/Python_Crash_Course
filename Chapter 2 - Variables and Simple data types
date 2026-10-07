@@ -184,3 +184,9 @@ favorite_language.strip()
 
 message = "One of Python's strengths is its diverse community."
 print(message) #Now in this case the program ran fine since we were using double quotes, but what happens if we use single quotes?
+
+message = 'One of Python's strengths is its diverse community.'
+print(message)
+
+#Here we are faced with an error, and python is telling us that there is an undetermined string literal and therefore we have a syntax error.
+#The good thing is, is that python can help tell you where your error is happening. There will be times you will face errors when coding in python and will be annoying but don't give up.
