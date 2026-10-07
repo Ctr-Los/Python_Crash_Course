@@ -271,3 +271,17 @@ print(name.rstrip())
 2 + 3 * 4
 
 (2+3) * 4 # and you can use parenthesis to change the order of operations. Spacing does NOT have an effect on the end result of the expression
+
+#Floats
+
+#Python calls any number with a decimal a "float". And this term is used often in many other programming languages.
+
+0.1 + 0.1
+
+0.2 + 0.2
+
+2 * 0.1
+
+2 * 0.2
+
+0.2 + 0.1 #Be aware that sometimes you can get arbitrary numbers (placeholder) when doing floats.
