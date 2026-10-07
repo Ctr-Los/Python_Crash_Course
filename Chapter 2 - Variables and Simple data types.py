@@ -313,3 +313,14 @@ print(message)
 #result would be 1, and that is because in python 2, it keeps the remainder truncated (exceeded character limit)
 #In case you are using python 2 and do not want truncated responses, have one of the numbers be a float and the answer will be a float as well. 
 
+#Try it yourself 
+
+#2-8
+
+print(3 + 5)
+
+print(4 * 2 )
+
+print(12 - 4)
+
+print(16 / 2 )
