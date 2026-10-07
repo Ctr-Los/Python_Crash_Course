@@ -175,3 +175,12 @@ favorite_language.strip()
 
 
 #Removing whitespaces helps you become more familar with manipulating strings and especially when you need to clean up your code.
+
+#Syntax error
+
+#Syntax error is when python doesn't recognize a specific code in your program and therefore you will face an error.
+
+#A commonn example is when you use an apostrophe wrong and python sees an error, here is an example:
+
+message = "One of Python's strengths is its diverse community."
+print(message) #Now in this case the program ran fine since we were using double quotes, but what happens if we use single quotes?
