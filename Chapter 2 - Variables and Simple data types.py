@@ -297,3 +297,13 @@ print(message)
 #Here is an example of a "type error" where python sees you are using a variable that has a integer.
 
 #Python knows that 23 can be the number or the string characters 2 and 3, but in this case you need to specify by using str() function that will tell python that this is a non-string values as a string.
+
+#Here is the correct way to do it:
+
+
+age = 23
+message = "Happy " + str(age) + "rd Birthday!"
+
+print(message)
+
+
