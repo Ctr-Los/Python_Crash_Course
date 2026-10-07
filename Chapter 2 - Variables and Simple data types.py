@@ -348,3 +348,9 @@ print("Hello everyone!") #This part does though
 #It is wise to write meaningful comments, because you want to maintain a level of good code and that needs good documentation not to mentioned you will be working with other programmers and they will need to see your
 #code. Be clear and detailed. 
 
+#Zen of Python 
+
+#The Zen of Python was introduced as a way for programmers to have a better grasp of how they should write code. 
+#Here is the full poem by Tim Peters, just type "import this"
+                                                                                                                                                  
+import this
