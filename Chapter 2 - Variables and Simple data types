@@ -197,3 +197,13 @@ print(message)
 
 #Printing in python 2 is different than in python 3, is that python 2 uses a different syntax than 3.
 #One example is that in certain cases, in python 2 you can print without a parenthesis.
+
+#Try it yourself
+
+#2-3
+
+name = "Eric"
+
+message = "Hello " + name + ", would you like to learn some Python today?"
+
+print(message)
