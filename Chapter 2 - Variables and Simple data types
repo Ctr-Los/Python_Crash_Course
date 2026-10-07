@@ -207,3 +207,14 @@ name = "Eric"
 message = "Hello " + name + ", would you like to learn some Python today?"
 
 print(message)
+
+#2-4
+
+name = "carlos huerta-enciso"
+
+print(name.upper())
+
+print(name.lower())
+
+print(name.title())
+
